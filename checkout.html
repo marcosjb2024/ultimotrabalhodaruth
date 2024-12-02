@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finalizar Compra</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Checkout</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="carrinho.html">Carrinho</a>
+    </nav>
+  </header>
+  <main>
+    <form id="checkoutForm">
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" required>
+
+      <label for="contato">Contato:</label>
+      <input type="text" id="contato" required>
+
+      <label for="pagamento">Método de Pagamento:</label>
+      <select id="pagamento" required>
+        <option value="Cartão de Crédito">Cartão de Crédito</option>
+        <option value="PayPal">PayPal</option>
+      </select>
+
+      <button type="submit" class="btn">Confirmar Pedido</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2024L'Atelier Beauté. Todos os direitos reservados.</p>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
